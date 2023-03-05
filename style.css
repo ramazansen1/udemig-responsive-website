@@ -1,0 +1,14 @@
+.card{
+    transition: all  .3s;
+}
+.card:hover{
+    transform: translate(10px, -10px);
+    transition: all .5s;
+    box-shadow: 2px 2px 20px blue;
+}
+
+@media (max-width:700px){
+    .card-wrapper{
+        justify-content: center;
+    }
+}
